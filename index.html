@@ -172,17 +172,14 @@ section{position:relative;padding:44px 20px}
 .party .bouquet{left:-42px;top:46%;width:100px;height:160px;transform:rotate(12deg)}
 /* Địa điểm */
 .venue-sec{text-align:center;padding:8px 20px 36px;overflow:hidden}
-.venue-sec .label{color:var(--ink);font-weight:600;letter-spacing:.14em}
-.venue-sec .venue{margin-top:14px}
-.venue-sec .venue a.tel{display:inline-flex;align-items:center;min-height:44px;margin:0 auto;color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.venue-sec .label{color:var(--ink);font-weight:600;letter-spacing:.14em;font-size:7.7px}
+.venue-sec .venue{margin-top:14px;font-size:9.8px}
+.venue-sec .venue b{font-size:13.3px}
+.venue-sec .venue a.tel,.venue-sec .venue .text-link{font-size:9.8px}
+.venue-sec .venue .text-link svg{width:11px;height:11px}
+.venue-sec .venue a.tel{display:flex;justify-content:center;width:fit-content;align-items:center;min-height:44px;margin:0 auto;color:var(--ink);text-decoration:underline;text-underline-offset:4px}
 .venue-sec .venue .text-link{display:flex;justify-content:center}
 .sketch{display:block;width:100%;height:auto;margin:6px 0 -4px;opacity:.45}
-
-/* Dress code */
-.dress{text-align:center}
-.dress p{font-size:13px;color:var(--muted);margin:10px 0 16px}
-.swatches{display:flex;justify-content:center;gap:14px}
-.swatches span{width:40px;height:40px;border-radius:50%;box-shadow:0 6px 12px -6px rgba(60,44,36,.6)}
 
 /* Lịch trình */
 /* Cột: icon | giờ | chấm trên trục | hoạt động */
@@ -443,18 +440,6 @@ section{position:relative;padding:44px 20px}
       <path d="M18 140v-18M18 124c-12-4-10-22 0-30 10 8 12 26 0 30ZM302 140v-20M302 124c-12-4-10-24 0-34 10 10 12 30 0 34Z"/>
       <path d="M8 140c4-8 10-10 18-6M290 140c6-8 14-10 22-4"/>
     </svg>
-  </section>
-
-  <!-- Dress code -->
-  <section class="dress">
-    <h2 class="title reveal">Dress code</h2>
-    <p class="reveal">Trang phục lịch sự, ưu tiên các tông màu</p>
-    <div class="swatches">
-      <span class="reveal" style="--d:0s;background:#1E1E1C" title="Đen"></span>
-      <span class="reveal" style="--d:.08s;background:#D9B36E" title="Vàng"></span>
-      <span class="reveal" style="--d:.16s;background:#2E5A3A" title="Xanh rêu"></span>
-      <span class="reveal" style="--d:.24s;background:#F1E6C9" title="Kem"></span>
-    </div>
   </section>
 
   <!-- Lịch trình -->
